@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0 166px;
+}
+
+.header {
+    background-image: url(../IMG/hero\ image.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-logo {
+    /* margin-right: 268px; */
+}
+
+.nav {
+    /* margin-right: 36px; */
+    display: flex;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 0.3s linear;
+}
+
+.nav-item:hover {
+    color: #D67E35;
+    transform: scale(1.15);
+}
+
+.btn {
+    display: flex;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.cart {
+    position: relative;
+    border-right: white 1px solid;
+    padding-right: 21px;
+    height: 51px;
+}
+
+.cart-img {
+    position: absolute;
+    top: 21px;
+}
+
+.num {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: all 0.3s linear;
+}
+
+.num:hover {
+    color: #D67E35;
+}
+
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    color: white;
+    border: 1px solid #FF7400;
+    text-decoration: none;
+    background-color: #FF7400;
+    padding: 14px 19px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 0.3s linear;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: black;
+    color: orange;
+    border-color: black;
+}
+
+.header-tittle {
+    color: #D67E35;
+}
+
+.header-tittle h2 {
+    font-size: 35px;
+    font-weight: 400;
+
+}
+
+.header-tittle h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.header-down {
+    margin-top: 200px;
+    max-width: max-content;
+    text-align: center;
+    font-family: 'Tinos', serif;
+}
+
+.header-subtittle {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 21px;
+}
+
+.header-subtittle::after {
+    position: absolute;
+    content: " ";
+    height: 2px;
+    width: 61px;
+    background-color: white;
+    top: 10px;
+    left: 8px;
+}
+
+.header-subtittle::before {
+    position: absolute;
+    content: " ";
+    height: 2px;
+    width: 61px;
+    background-color: white;
+    top: 10px;
+    right: 8px;
+}
