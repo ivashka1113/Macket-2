@@ -166,3 +166,132 @@ body {
     top: 10px;
     right: 8px;
 }
+
+.card-image,
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    color: #2C2C2C;
+    margin-bottom: 20px;
+}
+
+span.accent-color-bej {
+    color: #BC9060;
+}
+
+.card-img {
+    padding-top: 35px;
+}
+
+.card-desc {
+    text-align: center;
+    color: #656363;
+}
+
+.card {
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    width: 349px;
+    height: 328px;
+    background-color: white;
+    margin-top: -151px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    padding: 0 10px;
+}
+
+.card:not(:last-child) {
+    margin-right: 31px;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.history-title-text {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+
+}
+
+span.accent-color-orng {
+    color: #D67E34;
+}
+
+.history-desc-text {
+    font-size: 16px;
+    color: #656363;
+}
+
+.history {
+    margin-top: 166px;
+}
+
+.history-desc {
+    width: 444px;
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.history-title {
+    width: 444px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.history-desc-text span.accent-color-orng {
+    color: #D67E34;
+}
+
+.history-food {
+    display: flex;
+    text-align: center;
+    width: 444px;
+    justify-content: center;
+}
+
+.history-food-number {
+    font-size: 40px;
+    color: #BC9060;
+}
+
+.history-food-name {
+    font-size: 20px;
+}
+
+.history-food-item:not(:last-child) {
+    margin-right: 58px;
+}
+
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-images {
+    position: relative;
+    margin-right: 260px;
+}
+
+.history-image-1,
+.history-image-3 {
+    z-index: 2;
+    position: absolute;
+}
+
+.history-image-2 {
+    z-index: 1;
+}
+
+.history-image-1 {
+    top: 45px;
+    right: 150px;
+}
+
+.history-image-3 {
+    top: 220px;
+    left: 100px;
+}
