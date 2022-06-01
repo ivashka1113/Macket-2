@@ -228,6 +228,7 @@ span.accent-color-orng {
 
 .history {
     margin-top: 166px;
+    margin-bottom: 182px;
 }
 
 .history-desc {
@@ -294,4 +295,31 @@ span.accent-color-orng {
 .history-image-3 {
     top: 220px;
     left: 100px;
+}
+
+.black {
+    background-image: url(../IMG/black-bg.jpg);
+    height: 357px;
+    padding: 80px 0px;
+    display: flex;
+
+}
+
+.black-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.black-title {
+    font-size: 52px;
+    color: #D67E34;
+    font-family: 'Tinos', serif;
+    margin-bottom: 20px;
+}
+
+.black-subtitle {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
 }
