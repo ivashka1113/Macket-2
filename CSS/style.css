@@ -302,7 +302,7 @@ span.accent-color-orng {
     height: 357px;
     padding: 80px 0px;
     display: flex;
-
+    align-items: center;
 }
 
 .black-holder {
@@ -322,4 +322,40 @@ span.accent-color-orng {
     color: white;
     font-size: 24px;
     font-weight: 700;
+}
+
+.container-black {
+    width: 130%;
+}
+
+.dishes-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.dishes {
+    padding: 132px 0px;
+}
+
+.burgers {
+    display: flex;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    justify-content: center;
+}
+
+.burger-prices-item {
+    display: flex;
+    align-items: center;
+}
+
+.burger-img {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.burgers-picture {
+    margin-right: 30px;
 }
