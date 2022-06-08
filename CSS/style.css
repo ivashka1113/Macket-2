@@ -18,7 +18,8 @@ body {
 }
 
 .container {
-    margin: 0 166px;
+    /* margin: 0 166px; */
+    padding: 0px 166px;
 }
 
 .header {
@@ -358,4 +359,88 @@ span.accent-color-orng {
 
 .burgers-picture {
     margin-right: 30px;
+}
+
+.menu {
+    background-image: url(../IMG/menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 226px;
+    text-align: center;
+}
+
+.menu-title-text {
+    color: white;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.menu-title {
+    margin-bottom: 138px;
+}
+
+.menu-item {
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    padding-top: 80px;
+    padding-bottom: 43px;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item-img {
+    margin-bottom: 22px;
+}
+
+.menu-text-title {
+    font-weight: 400;
+    font-size: 26px;
+    font-family: 'Tinos', serif;
+    margin-bottom: 17px;
+}
+
+.menu-text-desc {
+    font-size: 16px;
+    margin-bottom: 34px;
+}
+
+.order-button {
+    padding: 14px 67px;
+}
+
+.menu-image {
+    position: relative;
+}
+
+.price-img {
+    position: absolute;
+    top: 120px;
+    right: 40px;
+}
+
+.menu-price {
+    display: flex;
+    border: 7px solid white;
+    border-radius: 50%;
+    background-color: #D67E34;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cookie', serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 120px;
+    right: 40px;
 }
