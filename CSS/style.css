@@ -66,6 +66,11 @@ body {
     display: flex;
 }
 
+.burger-menu-button {
+    display: none;
+    margin-left: auto;
+}
+
 .nav-item:not(:last-child) {
     margin-right: 25px;
 }
@@ -562,3 +567,146 @@ span.accent-color-orng {
     height: 732px;
     background-image: url(../IMG/footer-bg.jpg);
 }
+
+@media(max-width: 1500px) {
+    .galery-content {
+        display: block;
+    }
+
+    .galery-content-img,
+    .galery-content-down,
+    .galery-content-up {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .galery-content-img {
+        margin-bottom: 20px;
+        max-width: 250px;
+    }
+
+    .galery-content-left {
+        margin-right: 0px;
+    }
+}
+
+@media(max-width: 1300px) {
+
+    .menu-items {
+        display: block;
+    }
+
+    .menu-item {
+        width: 600px;
+        margin: 20px auto !important;
+    }
+
+    .menu-price {
+        right: 180px;
+    }
+
+    .header-down {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-subtittle {
+        margin-bottom: 60px;
+    }
+
+    .header-subtittle::after,
+    .header-subtittle::before {
+        content: none;
+    }
+
+    .cook-content {
+        display: block;
+    }
+
+    .cook-content-img {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+    }
+
+    .black {
+        text-align: center;
+    }
+
+    .black-holder {
+        display: block;
+    }
+
+    .black-left {
+        margin-bottom: 50px;
+    }
+
+    .history-images {
+        display: none;
+    }
+
+    .history-holder {
+        justify-content: center;
+    }
+
+    .history-title,
+    .history-desc,
+    .history-food {
+        width: auto;
+    }
+
+
+
+    @media(max-width: 1185px) {
+        .burger-menu-button {
+            display: block;
+            background: none;
+            border: none;
+        }
+
+        .nav,
+        .cart,
+        .phone,
+        .btn {
+            display: none;
+        }
+
+        .header-line {
+            justify-content: space-between;
+        }
+
+        .burgers-picture {
+            display: none;
+        }
+    }
+
+    @media(max-width: 1220px) {
+        .cards-holder {
+            display: block;
+        }
+
+        .card {
+            width: 100%;
+            margin-top: 30px;
+            padding-bottom: 20px;
+        }
+
+
+        @media(max-width: 780px) {
+            .history-holder {
+                display: block;
+            }
+
+            .menu-item {
+                width: auto;
+            }
+
+            .container {
+                margin: auto 40px;
+            }
+
+            .black-title {
+                font-size: 40px;
+            }
+        }
