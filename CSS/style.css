@@ -66,8 +66,7 @@ body {
     display: flex;
 }
 
-.burger-menu-button {
-    display: none;
+#burger-menu-button {
     margin-left: auto;
 }
 
@@ -568,6 +567,10 @@ span.accent-color-orng {
     background-image: url(../IMG/footer-bg.jpg);
 }
 
+.disp {
+    display: none;
+}
+
 @media(max-width: 1500px) {
     .galery-content {
         display: block;
@@ -657,56 +660,71 @@ span.accent-color-orng {
     }
 
 
-
-    @media(max-width: 1185px) {
-        .burger-menu-button {
-            display: block;
-            background: none;
-            border: none;
-        }
-
-        .nav,
-        .cart,
-        .phone,
-        .btn {
-            display: none;
-        }
-
-        .header-line {
-            justify-content: space-between;
-        }
-
-        .burgers-picture {
-            display: none;
-        }
+    .block {
+        display: block;
     }
 
-    @media(max-width: 1220px) {
-        .cards-holder {
-            display: block;
-        }
+    .burger-slide {
+        position: absolute;
+    }
 
-        .card {
-            width: 100%;
-            margin-top: 30px;
-            padding-bottom: 20px;
-        }
+    .burger-slide .nav-item {
+        text-align: center;
+        margin: 10px -15px !important;
+    }
+}
+
+@media(max-width: 1185px) {
+    #burger-menu-button {
+        display: block;
+        background: none;
+        border: none;
+    }
+
+    .nav,
+    .cart,
+    .phone,
+    .btn {
+        display: none;
+    }
+
+    .header-line {
+        justify-content: space-between;
+    }
+
+    .burgers-picture {
+        display: none;
+    }
+}
+
+@media(max-width: 1220px) {
+    .cards-holder {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+
+}
 
 
-        @media(max-width: 780px) {
-            .history-holder {
-                display: block;
-            }
+@media(max-width: 780px) {
+    .history-holder {
+        display: block;
+    }
 
-            .menu-item {
-                width: auto;
-            }
+    .menu-item {
+        width: auto;
+    }
 
-            .container {
-                margin: auto 40px;
-            }
+    .container {
+        margin: auto 40px;
+    }
 
-            .black-title {
-                font-size: 40px;
-            }
-        }
+    .black-title {
+        font-size: 40px;
+    }
+}
