@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -443,4 +447,118 @@ span.accent-color-orng {
     position: absolute;
     top: 120px;
     right: 40px;
+}
+
+.comment {
+    background-color: #E5E5E5;
+    padding: 104px 0px;
+    text-align: center;
+}
+
+.comment-text {
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.comment-image {
+    margin-bottom: 16px;
+}
+
+.comment-type {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+
+.comment-name {
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-item {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%
+}
+
+.slider-inactive {
+    background-color: #C4C4C4;
+}
+
+.slider-active {
+    border: 2px solid #FF7400;
+}
+
+.slider-item:not(:last-child) {
+    margin-right: 2px;
+}
+
+.galery {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.galery-title {
+    font-family: 'Tinos', serif;
+    margin-bottom: 60px;
+}
+
+.galery-title-text {
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.galery-content {
+    display: flex;
+    justify-content: center;
+}
+
+.galery-content-left {
+    margin-right: 30px;
+}
+
+.galery-content-up {
+    margin-bottom: 30px;
+}
+
+.galery-content-up,
+.galery-content-down {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cook {
+    padding-bottom: 100px;
+    text-align: center;
+    padding-bottom: 44px;
+}
+
+.cook-title {
+    margin-bottom: 107px;
+}
+
+.cook-title-text {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+}
+
+.cook-content-img:not(:last-child) {
+    margin-right: 30px;
+}
+
+.cook-content {
+    margin-bottom: 50px;
+}
+
+.footer {
+    height: 732px;
+    background-image: url(../IMG/footer-bg.jpg);
 }
